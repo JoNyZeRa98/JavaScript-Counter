@@ -1,0 +1,83 @@
+/* Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+/* Variables */
+:root {
+  --background-gradient:#b8c6db;
+  --background-gradient-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  /* Gradient Grey Background */
+  background-color: var(--background-gradient);
+  background-image: var(--background-gradient-image);
+}
+
+.container {
+  margin-top: 500px;
+  background-color: grey;
+  position: absolute;
+  padding: 50px;
+  text-align: center;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 10%;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 10%;
+  font-family: 'Roboto Slab', serif;
+  font-size: 22px;
+}
+
+#save-btn {
+  background: darkred;
+  padding: 30px;
+  margin-left: 50px;
+}
+
+#save-btn:hover {
+  background-color: #e45050;
+}
+
+#increment-btn {
+  background: #2c882c;
+  padding: 30px;
+}
+
+#increment-btn:hover {
+  background-color: #4ba14b;
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 1040px) {
+  #save-btn {
+    margin-left: 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
