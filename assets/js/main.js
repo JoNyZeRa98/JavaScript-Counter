@@ -1,15 +1,15 @@
 let counter = document.getElementById("counter")
 
-let roundTrollati = 0
+let counterStart = 0
 
 
 function increment(){
-    roundTrollati = roundTrollati + 1
-    counter.innerText = roundTrollati
+    counterStart = counterStart + 1
+    counter.innerText = counterStart
 }
 
 
 function remove(){
-    roundTrollati = roundTrollati - 1
-    counter.innerText = roundTrollati
+    counterStart = counterStart - 1
+    counter.innerText = counterStart
 }
